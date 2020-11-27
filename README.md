@@ -13,6 +13,8 @@ hash tables
 
 ### Naive example
 
+https://repl.it/@webdevdave/hash-tables#main.py
+
 ```
 def my_hash(s):
     sb = s.encode()     # converts each letter to a number
