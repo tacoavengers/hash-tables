@@ -9,6 +9,7 @@ hash tables
 - Deterministic: same input should always result in the same output
 - A hash table uses a list to store values
 - Uses the modulo operator to get an index with the array bounds
+- Recommended: use the DJB2, FNV-1 hashing algorithm
 
 
 ### Naive example
@@ -41,3 +42,4 @@ print(my_array[hash_index])
 hash_index = my_hash("hello world") % 8
 my_array[hash_index] = None
 ```
+
