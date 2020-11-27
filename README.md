@@ -56,3 +56,5 @@ So, if a value exists at that index, we create a linked list tied to that index,
 If so, then we consider load factor & resizing.  We need to know when to inscrease the size of our table.
 - Use load factor to determine when to expand or shrink.  
 - Load factor = number of elements / number of slots
+- Expand table if load factor > 0.7
+- Shrink if < 0.2
