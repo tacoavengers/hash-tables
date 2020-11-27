@@ -50,3 +50,9 @@ It's possible to generate the same index value.  When this happens the newer ver
 To resolve this problem, we can chain values together using Linked Lists.    
 
 So, if a value exists at that index, we create a linked list tied to that index, and then insert as many nodes as needed to that linked list.
+
+#### What if we get a lot of collisions?
+
+If so, then we consider load factor & resizing.  We need to know when to inscrease the size of our table.
+- Use load factor to determine when to expand or shrink.  
+- Load factor = number of elements / number of slots
