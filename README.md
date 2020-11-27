@@ -43,3 +43,8 @@ hash_index = my_hash("hello world") % 8
 my_array[hash_index] = None
 ```
 
+### Collisions
+
+It's possible to generate the same index value.  When this happens the newer version of the index value will overwrite the contents tied to the previous version of the index value.  This is not good.    
+
+To resolve this problem, we can chain values together using Linked Lists.
