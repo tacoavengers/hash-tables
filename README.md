@@ -34,4 +34,9 @@ print(my_array)
 # to get a value
 hash_index = my_hash("hello world") % 8
 print(my_array[hash_index])
+
+
+# remove a value
+hash_index = my_hash("hello world") % 8
+my_array[hash_index] = None
 ```
