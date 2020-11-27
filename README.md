@@ -27,7 +27,7 @@ def my_hash(s):
 my_array = [None] * 8                     # create an empty array to hold indexes
 
 hash_index = my_hash("hello world") % 8   # use modulo operator to create hash index
-my_array[hash_index] = 'my value'         # tie hash inde to a value
+my_array[hash_index] = 'my value'         # tie hash index to a value
 
 print(my_array)
 
