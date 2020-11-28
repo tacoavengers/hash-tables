@@ -58,3 +58,11 @@ If so, then we consider load factor & resizing.  We need to know when to inscrea
 - Load factor = number of elements / number of slots
 - Expand table if load factor > 0.7
 - Shrink if < 0.2
+
+### Hash tables & Interviews
+
+https://leetcode.com/problems/jewels-and-stones/
+
+For this problem we don't need to create a hash table because it's under the hood.  We can, however, use a data structure that uses hash tables.
+
+
